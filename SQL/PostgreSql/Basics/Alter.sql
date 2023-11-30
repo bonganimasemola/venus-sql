@@ -10,6 +10,8 @@
 -- ALTER TABLE students ADD COLUMN 
 -- parent_name VARCHAR(60) DEFAULT 'uknown'
 
+-- ALTER TABLE students DROP COLUMN phone
+
 -- 500 reciords
 
 -- CREATE TABLE students(
