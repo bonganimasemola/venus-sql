@@ -1,0 +1,16 @@
+
+DROP TABLE student;
+
+CREATE TABLE student(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(1000) NOT NULL UNIQUE ,
+    mark INTEGER NOT NULL DEFAULT 0
+    CHECK (mark> -1 AND mark <101),
+    phone BIGINT NOT NULL DEFAULT 0,
+    fee BIGINT NOT NULL DEFAULT 0,
+    is_married BOOLEAN NOT NULL DEFAULT FALSE,
+    bio TEXT,
+    gender gender NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+)
