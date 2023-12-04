@@ -1,5 +1,6 @@
 -- SELECT * FROM student;
-
+--
+-- 
 -- SELECT * from parent
 -- WHERE
 -- (id=5)
@@ -11,7 +12,8 @@
 -- SYNTAX
 -- select <* OR table1.<column>> table_name
 -- INNER JOIN <table_name> ON table1.<column>=table2.columnt
-
+--
+-- 
 SELECT *
 FROM student AS s
 INNER JOIN parent

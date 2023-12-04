@@ -4,6 +4,8 @@
 -- ('Mombasa','34234324'),
 -- ('Lamu','34324')
 
+--
+-- 
 
 INSERT INTO address (city,pobox)
 VALUES

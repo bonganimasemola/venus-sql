@@ -7,3 +7,6 @@ VALUES
 ('Angel',5,4),
 ('Asap',NULL,5),
 ('Peter',2,6)
+
+--
+-- 
