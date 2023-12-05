@@ -14,11 +14,11 @@
 -- subject_student
 -- ;
 
--- CREATE TABLE IF NOT EXISTS address(
---     id SERIAL PRIMARY KEY,
---     city VARCHAR(255) NOT NULL,
---     pobox VARCHAR (255) NOT NULL
--- );
+CREATE TABLE IF NOT EXISTS address(
+    id SERIAL PRIMARY KEY,
+    city VARCHAR(255) NOT NULL,
+    pobox VARCHAR (255) NOT NULL
+);
 
 -- CREATE TABLE IF NOT EXISTS subject(
 --     id SERIAL PRIMARY KEY,
@@ -30,6 +30,9 @@
 --      id SERIAL PRIMARY KEY,
 --      name VARCHAR(255) NOT NULL
 -- );
+
+--
+-- 
 
 CREATE TABLE IF NOT EXISTS student(
     id SERIAL PRIMARY KEY,
